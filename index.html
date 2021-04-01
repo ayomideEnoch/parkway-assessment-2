@@ -1,0 +1,44 @@
+<!-- TASK 2
+
+Making use of HTML and CSS only, design a progress bar as illustrated below such that one can set it’s css variable `--level` to a number between 0 and 1, or to a number between 0% and 100%, and the progress bar would reflect the level accordingly. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress bars</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- %Metric (0% - 100%) chosen -->
+    <div  id="page-wrap">
+        <!-- --level=0%  -->
+        <h3>0% Progress Bar</h3>
+        <div class="meter">
+            <span style="width: 0%"></span>
+        </div>
+        <!-- --level=25%  -->
+        <h3>25% Progress Bar</h3>
+        <div class="meter">
+            <span style="width: 25%"></span>
+        </div>
+        <!-- --level=50%  -->
+        <h3>50% Progress Bar</h3>
+        <div class="meter">
+            <span style="width: 50%"></span>
+        </div>
+        <!-- --level=75%  -->
+        <h3>75% Progress Bar</h3>
+        <div class="meter">
+            <span style="width: 75%"></span>
+        </div>
+        <!-- --level=100%  -->
+        <h3>100% Progress Bar</h3>
+        <div class="meter">
+            <span style="width: 100%"></span>
+        </div>
+        
+    </div>
+</body>
+</html>
